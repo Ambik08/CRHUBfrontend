@@ -1,0 +1,30 @@
+/* Custom Swiper Pagination Pill Styles */
+/* Scaled up Swiper dots */
+.custom-swiper-pagination .swiper-pagination-bullet {
+  background: #cbd5e1 !important;
+  opacity: 1 !important;
+  width: 10px !important;
+  height: 10px !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  background: #7c3aed !important;
+  width: 28px !important;
+  border-radius: 9999px !important;
+}
+
+/* Base configuration context values for smooth line clamp constraints */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
